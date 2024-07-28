@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --maroon-color: #671A16;
+  --amber: #F3AF00;
+  --banner-gradient: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  --maroon-dark-color: #200706;
+  --dark-blue-color: #2A2B35;
+  --font-monserrat: "Montserrat", sans-serif;
+}

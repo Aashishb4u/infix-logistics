@@ -1,0 +1,35 @@
+.top-header {
+  background: var(--maroon-color);
+}
+
+.infix-navbar {
+  .fa.fa-phone {
+    transform: rotate(90deg)
+  }
+  .top-header {
+    padding: 25px 4rem;
+    color: #fff;
+    font-family: var(--font-monserrat);
+  }
+
+  .bottom-header {
+    padding: 0 3rem;
+    color: #fff;
+    font-family: var(--font-monserrat);
+  }
+}
+
+.icon-container {
+  display: flex;
+  gap: 1rem;
+  font-family: var(--font-monserrat);
+}
+
+.company_logo {
+  width: 100px;
+}
+
+.active a{
+  border-bottom: 2px solid var(--maroon-color);
+  color: var(--maroon-color) !important;
+}

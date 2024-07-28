@@ -1,0 +1,78 @@
+<nav class="d-flex p-0 flex-column navbar infix-navbar navbar-expand-sm navbar-light bg-white">
+  <div class="container-fluid top-header d-flex justify-content-between">
+    <div class="d-flex gap-4 ">
+      <div class="d-flex gap-3 align-items-center">
+        <i class="fa fa-envelope"></i>
+        <span>infixlogistics&#64;gmail.com</span>
+      </div>
+      <div class="d-flex gap-3 align-items-center">
+        <i class="fa fa-phone"></i>
+        <span>+27 (440) 370-877</span>
+      </div>
+    </div>
+    <div class="icon-container">
+      <div>
+        <i class="fab fa-facebook"></i>
+      </div>
+      <div>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div>
+        <i class="fab fa-linkedin"></i>
+      </div>
+
+    </div>
+  </div>
+  <div class="bottom-header w-100 flex flex-wrap items-center justify-between mx-auto">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="assets/infix_logo.png" class="company_logo" alt="Flowbite Logo" />
+    </a>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+        <li routerLinkActive="active" [routerLink]="['/home']">
+          <a  href="/home" class="text-decoration-none block py-2 px-3 text-black bg-blue-700 md:bg-transparent md:p-0" aria-current="page">
+            Home
+          </a>
+        </li>
+        <li routerLinkActive="active" [routerLink]="['/about']">
+          <a href="/about"  class="text-decoration-none block py-2 px-3 text-black bg-blue-700 md:bg-transparent md:p-0" aria-current="page">
+            About Us
+          </a>
+        </li>
+        <li>
+          <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 md:border-0 md:p-0 md:w-auto ">
+            Services
+            <i class="mx-2 fa fa-caret-down"></i>
+          </button>
+          <!-- Dropdown menu -->
+          <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow">
+            <ul class="px-2 py-2 text-sm" aria-labelledby="dropdownLargeButton">
+              <li>
+                <a href="#" class="text-decoration-none text-black block px-4 py-2">Service 1</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black block px-4 py-2">Service 2</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black block px-4 py-2">Service 3</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li routerLinkActive="active">
+          <a href="#" class="text-decoration-none block py-2 px-3 text-black bg-blue-700 md:bg-transparent md:p-0" aria-current="page">Blogs</a>
+        </li>
+        <li routerLinkActive="active">
+          <a href="#" class="text-decoration-none block py-2 px-3 text-black bg-blue-700 md:bg-transparent md:p-0" aria-current="page">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+</nav>
+
