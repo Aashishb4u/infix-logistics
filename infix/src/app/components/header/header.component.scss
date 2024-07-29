@@ -7,9 +7,10 @@
     transform: rotate(90deg)
   }
   .top-header {
-    padding: 25px 4rem;
+    padding: 15px 4rem;
     color: #fff;
     font-family: var(--font-monserrat);
+    font-size: 14px;
   }
 
   .bottom-header {
@@ -23,13 +24,26 @@
   display: flex;
   gap: 1rem;
   font-family: var(--font-monserrat);
+  i {
+    font-size: 20px;
+  }
 }
 
 .company_logo {
-  width: 100px;
+  width: 80px;
 }
 
 .active a{
   border-bottom: 2px solid var(--maroon-color);
   color: var(--maroon-color) !important;
+}
+
+/* Show the dropdown on hover */
+#dropdownNavbarLink:hover + #dropdownNavbar,
+#dropdownNavbar:hover {
+  display: flex;
+}
+
+.shadow-class {
+  box-shadow: 1px 0rem 4rem 4px rgba(0, 0, 0, 0.15) !important
 }
